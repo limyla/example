@@ -1,0 +1,321 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"), 
+         url("Roboto.woff") format("woff");
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"), 
+         url("Playfairdisplaybold.woff") format("woff");
+}
+@font-face {
+    font-family: "RobotoB";
+    src: local("RobotoB"), 
+         url("Robotobold.woff") format("woff");
+}
+
+body {
+    width: 1440px; 
+    height: 2047px;   
+    text-align: center;
+    padding: 0; 
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 60px;
+}    
+
+h1 {    
+    font-family: Playfair Display;    
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center; 
+    margin: 0;   
+}
+
+h2 {
+    font-family: Playfair Display;    
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: RobotoB;       
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20;
+    margin-top: 0;
+}
+
+h4 {
+    font-family: Playfair Display;    
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.img h4 {
+    text-align: left;
+    margin-top: 20px;    
+}
+
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 135px;
+    flex-wrap: wrap;  
+}    
+
+nav a {
+    font-family: Roboto;    
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;    
+}
+
+header nav {
+    padding-top: 46px;    
+}
+
+header nav a {
+    color: #000000;    
+}
+
+footer nav a {
+    color: #FFFFFF;
+}
+
+.partner {
+    width: 1440px;
+    background-image: url(Hotel-11.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;    
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 46px;
+    margin-top: 45px;
+}
+
+.galeri {
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF7931;
+    background-image: url(gallery_ico\ 1.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.partner_text {
+    width: 456px;
+    height: 64px;
+    font-family: Roboto;    
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 139px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+main {    
+    padding-top: 46px;
+
+}
+
+.news {
+    display: flex;
+    justify-content: center;       
+}
+
+.img:not(:last-child) {
+    margin-right: 29px;    
+}
+
+.img p {
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 150%;
+    text-align: left;
+    font-family: Roboto;    
+    font-size: 14px;
+}
+
+.phon {
+    width: 1440px;
+    height: 556px;
+    padding: 0;
+    margin: 0;      
+    background-color: #F7F7F7;
+    margin-top: 51px;
+    background-image: url(Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+.tikets {
+    width: 370px;      
+    display: flex;
+    flex-direction: column;       
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;  
+    justify-content: flex-start;    
+}
+
+.tikets .line {
+    width: 100px;    
+    border: 1px solid rgba(0, 0, 0, 0.2);        
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 24px;
+}
+
+.tikets h3 {
+    margin-top: 33px;
+    margin-bottom: 35px;       
+}
+
+.tikets h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.tikets p {    
+    height: 63px;    
+    font-family: Roboto;    
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    margin: 0;    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 47px;    
+    margin-left: auto;
+    margin-right: auto;              
+    margin-top: 25px;
+} 
+
+.button .text {
+    font-family: RobotoB;    
+    font-size: 12px;  
+    line-height: 14px;
+    letter-spacing: 2px;      
+    text-transform: uppercase;
+    color: #FFFFFF;    
+    margin-right: 7px;  
+    vertical-align: bottom;               
+}
+
+.forward {    
+    width: 24px;
+    height: 25px;
+    background-image: url(Shape.svg);   
+    background-repeat: no-repeat;  
+    background-position: right center;      
+}
+
+
+footer {
+    width: 1440px;    
+    background: #575757;
+    background-origin: padding-box;
+    padding-top: 26px;
+    padding-bottom: 46px;
+    margin-top: 50px;
+}
+
+footer nav {
+    margin-top: 32px;
+}
+
+footer .line {
+    width: 1170px;    
+    border: 1px solid #FFFFFF;    
+    margin-top: 46px; 
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 42px;   
+}
+
+.icon {
+    width: 47px;
+    height: 47px;
+    background-color: #FFFFFF;
+}
+
+.icon:not(:last-child) {
+    margin-right: 14px;    
+}
+
+.instagram {
+    background-image: url(icons_2.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+}
+
+.facebook {
+    background-image: url(facebook_icon.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url(twitter_icon.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+}
